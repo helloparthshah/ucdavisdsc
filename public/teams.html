@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./slides.css" />
+    <title>Teams</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js'></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://kit.fontawesome.com/67a2b7a7fb.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.png" />
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900' rel='stylesheet' type='text/css'>
+</head>
+
+<body onload="Load()" onscroll="scrl1()">
+    <section id="nbr" class="navbar">
+        <div style="width: 100%;">
+            <img id="im" src="assets/logo.png" />
+
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                &#9776;
+            </a>
+        </div>
+        <div class="dropdown">
+            <a href="/" class="dropbtn" onclick="test()">Home</a>
+        </div>
+        <div class="dropdown">
+            <a href="/#about" class="dropbtn" onclick="test()">About</a>
+        </div>
+        <div class="dropdown">
+            <a href="/#wksp" class="dropbtn" onclick="test()">Events</a>
+        </div>
+        <div class="dropdown">
+            <a href="/#slideshow" class="dropbtn" onclick="test()">Gallery</a>
+        </div>
+        <div class="dropdown">
+            <a class="dropbtn" style="color: red;" onclick="test()">Team</a>
+        </div>
+    </section>
+    <div id="page" class="animate-bottom">
+
+        <section id="particles-js" style="height: 200px;">
+        </section>
+        <section id="team" class="s parallax bg">
+            <h2 id="tt">Meet the Team</h2>
+            <section class="content">
+                <div class="bar_team">
+                </div>
+                <div id="test">
+
+                </div>
+            </section>
+        </section>
+    </div>
+    <section id="footer" class="section parallax bg">
+        <div class="foo" style="text-align: center;">
+            <p>DSC Davis - Powered by Google Developers<br> University of California, Davis<br> 1 Shields Ave, Davis, CA 95616
+            </p>
+        </div>
+        <div class="row">
+            <div class="column">
+                <div>
+                    <a href="mailto:dscucdavis@gmail.com">
+                        <button class="button button 1"><img
+                                src="https://www.shareicon.net/data/512x512/2015/12/02/681011_email_512x512.png"></button>
+                    </a>
+
+                    <p class="p1">dscucdavis@gmail.com</p>
+                </div>
+            </div>
+            <div class="column">
+                <div>
+                    <a href="https://www.facebook.com/dscucdavis/">
+                        <button class="button button 1"><img
+                                src="https://i.ya-webdesign.com/images/facebook-logo-2016-png-6.png"></button>
+                    </a>
+                </div>
+                <p class="p1">@dsucdavis</p>
+            </div>
+            <div class="column">
+                <div>
+                    <a href="https://www.instagram.com/dsc_ucdavis/">
+                        <button class="button button 1"><img
+                                src="https://www.edigitalagency.com.au/wp-content/uploads/Instagram-logo-black-borders-png-transparent-background.png"></button>
+                    </a>
+                </div>
+                <p class="p1">@dsc_ucdavis</p>
+            </div>
+            <div class="column">
+                <div>
+                    <a href="https://www.linkedin.com/company/30628397/">
+                        <button class="button button 1"><img
+                                src="https://i.ya-webdesign.com/images/linkedin-logo-png-transparent-background-4.png"></button>
+                    </a>
+                </div>
+                <p class="p1"> Developer Student Club @ UCDavis</p>
+            </div>
+        </div>
+        <div>
+            <p>Made with&nbsp;<i class="fas fa-heart" style="color: #DB4437;" aria-hidden="true"></i>&nbsp;and
+                <i class="fas fa-code" aria-hidden="true"></i></p>
+        </div>
+    </section>
+
+    <script src="./app.js"></script>
+
+</body>
+
+</html>
