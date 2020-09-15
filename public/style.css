@@ -681,7 +681,7 @@ h3 {
 
 .eventCard {
     /* max-width: 320px; */
-    width: 320px;
+    width: 300px;
     height: 25em;
     margin: 20px;
     background: #FFFFFF;
@@ -694,10 +694,25 @@ h3 {
     transition: 0s;
     display: inline-block;
     /* transition: all 0.3s ease-in-out 0s; */
+    text-align: left;
 }
 
 .eventCard h1 {
     font-size: 35px;
+    font-family: Roboto;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.eventCard p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    /* line-height: 16px; */
+    color: #666A72;
+    padding: 5px 20px;
 }
 
 .eventCard.fullscreen {
@@ -714,8 +729,9 @@ h3 {
 }
 
 #latest .eventCard {
-    width: 400px;
-    height: 35em;
+    width: 320px;
+    height: 32em;
+    margin-left: 123px;
 }
 
 #latest .eventCard.fullscreen {
@@ -974,9 +990,10 @@ canvas {
         padding-left: 0px;
     }
     #latest .eventCard {
-        width: 320px;
+        width: 300px;
         height: 25em;
         padding: 0;
+        margin-left: 0;
     }
     .card {
         max-width: 300px;

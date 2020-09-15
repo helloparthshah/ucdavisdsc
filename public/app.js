@@ -138,11 +138,7 @@ function showInfoWk(data, tabletop) {
             <div class="wkcontent" onclick="expand($(this));">
             <div style="width:100%">
                 <img class="memb" src="${d['Pictures']}" onerror="this.onerror=''; this.src='https://nyrevconnect.com/wp-content/uploads/2017/06/Placeholder_staff_photo-e1505825573317.png;'"></img>
-                <iframe class="video" 
-                src = "${d['Video']}"
-                frameborder = "0"
-                allow = "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen> </iframe>
+                
                 <div>
                     <h1>${d['Name']}</h1>
                 </div>
@@ -151,6 +147,11 @@ function showInfoWk(data, tabletop) {
                     ${d['Date']}, ${d['Time']}, ${d['Location']}
                     </p>
                 </div>
+                <iframe class="video" 
+                src = "${d['Video']}"
+                frameborder = "0"
+                allow = "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen> </iframe>
                 </div>
                 <div  class="writeup">
                     <p>
@@ -167,16 +168,22 @@ function showInfoWk(data, tabletop) {
             <div class="wkcontent" onclick="expand($(this));">
             <div style="width:100%">
                 <img class="memb" src="${d['Pictures']}" onerror="this.onerror=''; this.src='https://nyrevconnect.com/wp-content/uploads/2017/06/Placeholder_staff_photo-e1505825573317.png;'"></img>
-                <img class="video" src="${d['Pictures']}" onerror="this.onerror=''; this.src='https://nyrevconnect.com/wp-content/uploads/2017/06/Placeholder_staff_photo-e1505825573317.png;'"></img>
                 
+                <div>
+                    <p style="color: #EB4235; font-weight: normal;
+                    font-size: 18px;">
+                    Upcoming: ${d['Date']}
+                    </p>
+                </div>
                 <div>
                     <h1>${d['Name']}</h1>
                 </div>
                 <div>
                     <p>
-                    ${d['Date']}, ${d['Time']}, ${d['Location']}
+                    ${d['Time']}, ${d['Location']}
                     </p>
                 </div>
+                <img class="video" src="${d['Pictures']}" onerror="this.onerror=''; this.src='https://nyrevconnect.com/wp-content/uploads/2017/06/Placeholder_staff_photo-e1505825573317.png;'"></img>
                 </div>
                 <div class="writeup">
                     <p>
