@@ -1006,7 +1006,10 @@ canvas {
         margin-left: 20px;
     }
     .bar {
-        height: 260vh;
+        height: 210vh;
+    }
+    #links {
+        width: 80%;
     }
     .bar_team {
         height: 94.5%;
