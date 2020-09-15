@@ -407,6 +407,10 @@ html {
     margin-left: 123px;
 }
 
+#msg {
+    height: 70vh;
+}
+
 
 /* .title {
     height: 70px;
@@ -941,7 +945,19 @@ canvas {
 }
 
 #footer {
-    height: 50vh;
+    height: 30vh;
+}
+
+#links {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#links a {
+    text-decoration: none;
 }
 
 #tt {
