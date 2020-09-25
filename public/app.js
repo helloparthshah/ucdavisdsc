@@ -240,7 +240,7 @@ function scrl() {
         index = 2;
     else if (test.scrollTop >= test2.offsetTop && test.scrollTop < test3.offsetTop)
         index = 3;
-    else if (test.scrollTop >= test3.offsetTop && test.scrollTop < test4.offsetTop)
+    else if (test.scrollTop >= test3.offsetTop /* && test.scrollTop < test4.offsetTop */ )
         index = 4;
     // else if (test.scrollTop >= test4.offsetTop && test.scrollTop < test5.offsetTop)
     //     index = 5;
