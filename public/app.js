@@ -229,7 +229,7 @@ function scrl() {
     var test = document.querySelector('html');
     var test1 = document.querySelector("#a");
     var test2 = document.querySelector("#wksp");
-    // var test3 = document.querySelector("#slideshow");
+    var test3 = document.querySelector("#msg");
     // var test4 = document.getElementById("team");
     var test4 = document.getElementById("footer");
     var index = 1;
@@ -240,8 +240,8 @@ function scrl() {
         index = 2;
     else if (test.scrollTop >= test2.offsetTop && test.scrollTop < test3.offsetTop)
         index = 3;
-    /* else if (test.scrollTop >= test3.offsetTop && test.scrollTop < test4.offsetTop)
-        index = 4; */
+    else if (test.scrollTop >= test3.offsetTop && test.scrollTop < test4.offsetTop)
+        index = 4;
     // else if (test.scrollTop >= test4.offsetTop && test.scrollTop < test5.offsetTop)
     //     index = 5;
     else
